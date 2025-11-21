@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2025-10-23")
+		(date "2025-11-21")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -15221,7 +15221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0603FR-10100RL"
+		(property "Mouser" "603-RT0603FRE07100RL"
 			(at 127 139.7 90)
 			(effects
 				(font
@@ -16127,7 +16127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "710-885012007040 "
+		(property "Mouser" "80-C0603C102K5R7040"
 			(at 71.12 134.62 0)
 			(effects
 				(font
@@ -16511,7 +16511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0603FR-10100RL"
+		(property "Mouser" "603-RT0603FRE07100RL"
 			(at 127 116.84 90)
 			(effects
 				(font
@@ -16618,7 +16618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0603FR-10100RL"
+		(property "Mouser" "603-RT0603FRE07100RL"
 			(at 63.5 139.7 90)
 			(effects
 				(font
@@ -16955,7 +16955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0603FR-10100RL"
+		(property "Mouser" "603-RT0603FRE07100RL"
 			(at 127 132.08 90)
 			(effects
 				(font
@@ -17419,7 +17419,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "18p"
+		(property "Value" "10p"
 			(at 251.079 91.059 90)
 			(effects
 				(font
@@ -17636,7 +17636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "710-885012007040 "
+		(property "Mouser" "80-C0603C102K5R7040"
 			(at 71.12 121.92 0)
 			(effects
 				(font
@@ -17849,7 +17849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0603FR-10100RL"
+		(property "Mouser" "603-RT0603FRE07100RL"
 			(at 63.5 124.46 90)
 			(effects
 				(font
@@ -20807,7 +20807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "710-885012007040 "
+		(property "Mouser" "80-C0603C102K5R7040"
 			(at 134.62 137.16 0)
 			(effects
 				(font
@@ -20914,7 +20914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0603FR-10100RL"
+		(property "Mouser" "603-RT0603FRE07100RL"
 			(at 63.5 132.08 90)
 			(effects
 				(font
@@ -21088,7 +21088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0603FR-10100RL"
+		(property "Mouser" "603-RT0603FRE07100RL"
 			(at 127 124.46 90)
 			(effects
 				(font
@@ -21176,7 +21176,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "1276-2723-1-ND "
+		(property "DigiKey" "1276-3138-1-ND"
 			(at 241.3 147.32 0)
 			(effects
 				(font
@@ -21185,7 +21185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "80-C1206C225M5RECLR"
+		(property "Mouser" "187-CL31B225KCHSNNE"
 			(at 241.3 147.32 0)
 			(effects
 				(font
@@ -21194,7 +21194,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" "CL31B225KBHNNNE"
+		(property "TME" "C3216X7S2A225KAB"
 			(at 241.3 147.32 0)
 			(effects
 				(font
@@ -21641,7 +21641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "710-885012007040 "
+		(property "Mouser" "80-C0603C102K5R7040"
 			(at 134.62 121.92 0)
 			(effects
 				(font
@@ -22147,7 +22147,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "1276-2723-1-ND "
+		(property "DigiKey" "1276-3138-1-ND"
 			(at 246.38 147.32 0)
 			(effects
 				(font
@@ -22156,7 +22156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "80-C1206C225M5RECLR"
+		(property "Mouser" "187-CL31B225KCHSNNE"
 			(at 246.38 147.32 0)
 			(effects
 				(font
@@ -22165,7 +22165,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" "CL31B225KBHNNNE"
+		(property "TME" "C3216X7S2A225KAB"
 			(at 246.38 147.32 0)
 			(effects
 				(font
@@ -22813,7 +22813,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "18p"
+		(property "Value" "10p"
 			(at 251.079 101.219 90)
 			(effects
 				(font
@@ -24017,7 +24017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "710-885012007040 "
+		(property "Mouser" "80-C0603C102K5R7040"
 			(at 261.62 78.74 0)
 			(effects
 				(font
@@ -24258,7 +24258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "603-RC0603FR-10100RL"
+		(property "Mouser" "603-RT0603FRE07100RL"
 			(at 63.5 116.84 90)
 			(effects
 				(font

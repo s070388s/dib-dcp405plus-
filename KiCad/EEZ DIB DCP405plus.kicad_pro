@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.6096,
-          "height": 1.27,
-          "width": 1.27
+          "drill": 0.0,
+          "height": 7.5,
+          "width": 6.2
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2032
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -80,11 +80,11 @@
           ""
         ],
         [
-          "clearance|117911100|56695300|86964578-0645-4376-a200-c2dec2f36610|8037e31c-23e6-41b9-bf99-4bb9b6645ff6",
+          "clearance|117911100|56190700|2ce0f977-0f49-4077-b427-c6955ea94bc1|c53e5e53-f8a8-4814-a1bb-311a79a00d78",
           ""
         ],
         [
-          "clearance|117911100|56695300|86964578-0645-4376-a200-c2dec2f36610|e0a2d2e5-14b2-41fa-90e8-bbc79acd2940",
+          "clearance|117911100|56695300|86964578-0645-4376-a200-c2dec2f36610|8037e31c-23e6-41b9-bf99-4bb9b6645ff6",
           ""
         ],
         [
@@ -132,14 +132,6 @@
           ""
         ],
         [
-          "clearance|195520500|88989800|bd789e1f-c0b4-4f3c-8085-e5be2e51a9f9|eb83cc57-ee62-45e3-90cd-e8afbcd1f6bf",
-          ""
-        ],
-        [
-          "clearance|195520500|89650200|0f9fc85e-8816-4502-bb3c-4294f97c1974|eb83cc57-ee62-45e3-90cd-e8afbcd1f6bf",
-          ""
-        ],
-        [
           "clearance|69361000|88177000|7514b6fd-68a7-4ed4-8e3f-a11357dae679|f7d054ce-a3f8-44c1-828f-6fcb738ec018",
           ""
         ],
@@ -156,14 +148,6 @@
           ""
         ],
         [
-          "copper_edge_clearance|58500000|111950000|ae06be37-86e3-40b7-a7f9-f2dfcb4a8d25|06072b18-12f2-4411-a2af-ba2dd39a56f1",
-          ""
-        ],
-        [
-          "copper_edge_clearance|58500000|131000000|ae06be37-86e3-40b7-a7f9-f2dfcb4a8d25|12512694-01cf-4b56-8f78-b84221f72988",
-          ""
-        ],
-        [
           "courtyards_overlap|166643000|62950400|225e07c3-5166-4369-9197-7e539226de6e|fdeaba1f-d780-49f0-9826-5fc9965f4044",
           ""
         ],
@@ -176,11 +160,11 @@
           ""
         ],
         [
-          "silk_edge_clearance|58500000|116950000|ae06be37-86e3-40b7-a7f9-f2dfcb4a8d25|c0b3aaa6-5977-443c-a864-b3a0985a4d80",
+          "silk_edge_clearance|58500000|116950000|ae06be37-86e3-40b7-a7f9-f2dfcb4a8d25|06656e6e-3de8-407e-b715-5cdccc88a2ac",
           ""
         ],
         [
-          "silk_edge_clearance|58500000|136000000|ae06be37-86e3-40b7-a7f9-f2dfcb4a8d25|b0690340-793d-4484-86c1-900afbb5c117",
+          "silk_edge_clearance|58500000|136000000|ae06be37-86e3-40b7-a7f9-f2dfcb4a8d25|f651b467-2867-4b21-9096-6221b8805e4f",
           ""
         ],
         [
@@ -196,15 +180,15 @@
           ""
         ],
         [
-          "silk_edge_clearance|58500000|78750000|ae06be37-86e3-40b7-a7f9-f2dfcb4a8d25|47f2f839-a2bc-46a9-a79d-2fb8d8814f4a",
+          "silk_edge_clearance|58500000|78750000|ae06be37-86e3-40b7-a7f9-f2dfcb4a8d25|049d8873-1574-4ad6-b845-ace5561e193a",
           ""
         ],
         [
-          "silk_edge_clearance|58500000|78750000|ae06be37-86e3-40b7-a7f9-f2dfcb4a8d25|8231748c-7424-4166-a5fe-d89637238a9c",
+          "silk_edge_clearance|58500000|78750000|ae06be37-86e3-40b7-a7f9-f2dfcb4a8d25|0e99d661-673c-4a32-a8b6-2c88b56869f4",
           ""
         ],
         [
-          "silk_edge_clearance|58500000|83250000|ae06be37-86e3-40b7-a7f9-f2dfcb4a8d25|93432a91-78b9-495e-8cd4-6a9d0e55f991",
+          "silk_edge_clearance|58500000|83250000|ae06be37-86e3-40b7-a7f9-f2dfcb4a8d25|2eba2f49-9fed-43a8-a9c5-07413ec9e93b",
           ""
         ],
         [
@@ -224,19 +208,19 @@
           ""
         ],
         [
-          "silk_overlap|126852100|62983500|070af9fb-9fc3-4d4b-bb33-0011d3300b50|44898857-cb7c-4c1d-86bc-48d6b83022e3",
+          "silk_overlap|126852100|62983500|070af9fb-9fc3-4d4b-bb33-0011d3300b50|80b3c1bd-7c24-4286-814c-d344f49b1db2",
           ""
         ],
         [
-          "silk_overlap|139298100|62983500|3b41f1b5-80ab-4829-9ef2-59101012f069|44898857-cb7c-4c1d-86bc-48d6b83022e3",
+          "silk_overlap|139298100|62983500|3b41f1b5-80ab-4829-9ef2-59101012f069|80b3c1bd-7c24-4286-814c-d344f49b1db2",
           ""
         ],
         [
-          "silk_overlap|150875117|63047000|44898857-cb7c-4c1d-86bc-48d6b83022e3|5cd5eef1-ba64-4636-a863-fb89bc46162a",
+          "silk_overlap|150875117|63047000|5cd5eef1-ba64-4636-a863-fb89bc46162a|80b3c1bd-7c24-4286-814c-d344f49b1db2",
           ""
         ],
         [
-          "silk_overlap|166420883|63047000|44898857-cb7c-4c1d-86bc-48d6b83022e3|457b3cec-1339-4797-b97e-c6b7e49abc85",
+          "silk_overlap|166420883|63047000|457b3cec-1339-4797-b97e-c6b7e49abc85|80b3c1bd-7c24-4286-814c-d344f49b1db2",
           ""
         ]
       ],
@@ -848,7 +832,7 @@
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": false,
+      "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
@@ -933,6 +917,6 @@
     "project_license": "Licensed under the TAPR Open Hardware License (www.tapr.org/OHL)",
     "project_name": "EEZ DIB DCP405+ power module",
     "project_url": "https://www.envox.eu",
-    "project_version": "r4B2"
+    "project_version": "r4B3"
   }
 }
