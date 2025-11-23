@@ -8,10 +8,10 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "DCP405+ Front mask")
-		(date "2025-10-04")
-		(rev "r4B2")
-		(company "Envox d.o.o.")
+		(title "${project_name}")
+		(date "2025-11-23")
+		(rev "${project_version}")
+		(company "${project_creator}")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -119,6 +119,12 @@
 			(outputdirectory "../fabrication/gerbers/")
 		)
 	)
+	(property "project_creator" "Envox d.o.o.")
+	(property "project_info" "Power module with SMPS pre-regulator, remote sense & programming")
+	(property "project_license" "Licensed under the TAPR Open Hardware License (www.tapr.org/OHL)")
+	(property "project_name" "EEZ DIB DCP405+ power module front mask")
+	(property "project_url" "https://www.envox.eu")
+	(property "project_version" "r4B3")
 	(net 0 "")
 	(footprint "LOGO"
 		(layer "F.Cu")

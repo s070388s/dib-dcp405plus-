@@ -610,5 +610,12 @@
     "subpart_id_separator": 0
   },
   "sheets": [],
-  "text_variables": {}
+  "text_variables": {
+    "project_creator": "Envox d.o.o.",
+    "project_info": "Power module with SMPS pre-regulator, remote sense & programming",
+    "project_license": "Licensed under the TAPR Open Hardware License (www.tapr.org/OHL)",
+    "project_name": "EEZ DIB DCP405+ power module front mask",
+    "project_url": "https://www.envox.eu",
+    "project_version": "r4B3"
+  }
 }
