@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2025-11-21")
+		(date "2025-11-22")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -17419,7 +17419,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "10p"
+		(property "Value" "30p"
 			(at 251.079 91.059 90)
 			(effects
 				(font
@@ -17455,7 +17455,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "1292-1515-1-ND"
 			(at 251.46 88.9 0)
 			(effects
 				(font
@@ -17464,7 +17464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
+		(property "Mouser" "80-C0603C300G5HACTU"
 			(at 251.46 88.9 0)
 			(effects
 				(font
@@ -17473,7 +17473,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "0603N300J500CT"
 			(at 251.46 88.9 0)
 			(effects
 				(font
@@ -17482,7 +17482,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C123555"
 			(at 251.46 88.9 0)
 			(effects
 				(font
@@ -22813,7 +22813,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "10p"
+		(property "Value" "30p"
 			(at 251.079 101.219 90)
 			(effects
 				(font
@@ -22849,7 +22849,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" ""
+		(property "DigiKey" "1292-1515-1-ND"
 			(at 251.46 99.06 0)
 			(effects
 				(font
@@ -22858,7 +22858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
+		(property "Mouser" "80-C0603C300G5HACTU"
 			(at 251.46 99.06 0)
 			(effects
 				(font
@@ -22867,7 +22867,7 @@
 				(hide yes)
 			)
 		)
-		(property "TME" ""
+		(property "TME" "0603N300J500CT"
 			(at 251.46 99.06 0)
 			(effects
 				(font
@@ -22876,7 +22876,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C123555"
 			(at 251.46 99.06 0)
 			(effects
 				(font
