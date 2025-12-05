@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2025-11-27")
+		(date "2025-12-05")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -5749,6 +5749,28 @@
 			)
 		)
 	)
+	(global_label "ISO_DA_MISO"
+		(shape output)
+		(at 124.46 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "30c10d2f-7553-4bf5-a671-dbafe11e3e0d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.9463 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "~{OVP_FAULT}"
 		(shape input)
 		(at 27.94 101.6 180)
@@ -5947,28 +5969,6 @@
 			)
 		)
 	)
-	(global_label "ISO_IOEXP_SCLK"
-		(shape input)
-		(at 124.46 147.32 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify right)
-		)
-		(uuid "74d65493-168d-43a0-9564-3cbb5f999336")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.5756 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PREG_OE"
 		(shape output)
 		(at 243.84 68.58 0)
@@ -5987,6 +5987,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ISO_DA_SCLK"
+		(shape input)
+		(at 124.46 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "855eb9d9-b8ad-4049-b8ef-9dd27a8b3f73")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.8192 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6070,28 +6092,6 @@
 		(uuid "a51bddc3-3609-4e18-b2a1-b3e9c2880ef5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 198.0627 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ISO_IOEXP_MISO"
-		(shape output)
-		(at 124.46 149.86 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify right)
-		)
-		(uuid "af20e433-1452-4d4f-921a-a57e5a7f3fb6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.7027 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
