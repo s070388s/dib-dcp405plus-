@@ -5697,7 +5697,7 @@
 			)
 		)
 	)
-	(global_label "ISO_DA_MISO"
+	(global_label "ISO_MISO2"
 		(shape output)
 		(at 124.46 149.86 180)
 		(fields_autoplaced yes)
@@ -5807,7 +5807,7 @@
 			)
 		)
 	)
-	(global_label "ISO_IOEXP_MISO"
+	(global_label "ISO_MISO1"
 		(shape output)
 		(at 210.82 43.18 180)
 		(fields_autoplaced yes)
@@ -5829,7 +5829,7 @@
 			)
 		)
 	)
-	(global_label "ISO_IOEXP_SCLK"
+	(global_label "ISO_SCLK1"
 		(shape input)
 		(at 210.82 45.72 180)
 		(fields_autoplaced yes)
@@ -5841,7 +5841,7 @@
 		)
 		(uuid "6406b0bc-5847-4ec2-a804-f4ea76f34edb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.9356 45.72 0)
+			(at 201.6608 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5873,7 +5873,7 @@
 			)
 		)
 	)
-	(global_label "ISO_DA_MOSI"
+	(global_label "ISO_MOSI2"
 		(shape input)
 		(at 27.94 43.18 180)
 		(fields_autoplaced yes)
@@ -5895,7 +5895,7 @@
 			)
 		)
 	)
-	(global_label "ISO_DA_SCLK"
+	(global_label "ISO_SCLK2"
 		(shape input)
 		(at 27.94 45.72 180)
 		(fields_autoplaced yes)
@@ -5939,7 +5939,7 @@
 			)
 		)
 	)
-	(global_label "ISO_DA_SCLK"
+	(global_label "ISO_SCLK2"
 		(shape input)
 		(at 124.46 147.32 180)
 		(fields_autoplaced yes)
@@ -6027,7 +6027,7 @@
 			)
 		)
 	)
-	(global_label "ISO_IOEXP_MOSI"
+	(global_label "ISO_MOSI1"
 		(shape input)
 		(at 210.82 48.26 180)
 		(fields_autoplaced yes)
