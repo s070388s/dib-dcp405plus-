@@ -7957,6 +7957,18 @@
 		)
 		(uuid "03cf3e24-3d54-49cd-8868-645c33b2bab1")
 	)
+	(text "Requires SPI_MODE1 (CPOL=0, CPHA=1)"
+		(exclude_from_sim no)
+		(at 109.22 114.3 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(color 132 0 132 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "0ab58469-4072-487b-b29b-52e07d71a7b7")
+	)
 	(text "DIB signal connector"
 		(exclude_from_sim no)
 		(at 15.24 17.78 0)
@@ -8121,7 +8133,7 @@
 	)
 	(text "M0: Asynchronous interrupt mode\nM1: SPI word transfer size 24-bit\nM2: Hamming code word validation off"
 		(exclude_from_sim no)
-		(at 127 129.54 0)
+		(at 109.22 127 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -8159,7 +8171,7 @@
 	)
 	(text_box "Set A_SYS_CFG Register bit 7 (VNCPEN) to enable negative charge pump"
 		(exclude_from_sim no)
-		(at 106.68 192.405 0)
+		(at 109.22 116.84 0)
 		(size 29.21 3.81)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -9580,7 +9592,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 182.88) (xy 132.08 187.96)
+			(xy 132.08 182.88) (xy 132.08 185.42)
 		)
 		(stroke
 			(width 0)
@@ -15207,8 +15219,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_symbols:GND")
-		(at 132.08 190.5 0)
-		(mirror y)
+		(at 132.08 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15216,7 +15227,7 @@
 		(dnp no)
 		(uuid "2e91d879-919f-46a4-b587-ac7172249d75")
 		(property "Reference" "#SUPPLY08"
-			(at 132.08 190.5 0)
+			(at 132.08 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15225,7 +15236,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.175 191.77 0)
+			(at 133.985 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15234,7 +15245,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 190.5 0)
+			(at 132.08 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15243,7 +15254,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 190.5 0)
+			(at 132.08 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15252,7 +15263,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.08 190.5 0)
+			(at 132.08 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
