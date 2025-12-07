@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2025-12-06")
+		(date "2025-12-07")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -1242,106 +1242,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_EEZ_passives:L_EU"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Value" "~"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L_EU_1_0"
-				(rectangle
-					(start -2.54 0.889)
-					(end 2.54 -0.889)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_EEZ_passives:L_EU_SRF0703"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1532,6 +1432,157 @@
 					)
 					(fill
 						(type outline)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_EEZ_passives:L_Ferrite Bead"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FB"
+				(at 1.905 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" ""
+				(at 1.905 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ferrite bead"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_Ferrite Bead_0_1"
+				(polyline
+					(pts
+						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.889) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -0.7874)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_Ferrite Bead_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -3429,7 +3480,7 @@
 		(uuid "cc5110fe-b040-408f-adec-2d28703a3365")
 	)
 	(junction
-		(at 256.54 30.48)
+		(at 251.46 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d646ce9e-8ecc-493f-95e6-a12e25983b24")
@@ -3522,7 +3573,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 30.48) (xy 256.54 30.48)
+			(xy 248.92 30.48) (xy 251.46 30.48)
 		)
 		(stroke
 			(width 0.1524)
@@ -4425,7 +4476,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 30.48) (xy 259.08 30.48)
+			(xy 251.46 30.48) (xy 254 30.48)
 		)
 		(stroke
 			(width 0.1524)
@@ -4695,7 +4746,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 27.94) (xy 256.54 30.48)
+			(xy 251.46 27.94) (xy 251.46 30.48)
 		)
 		(stroke
 			(width 0)
@@ -5035,7 +5086,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 63.5) (xy 233.68 63.5)
+			(xy 243.84 63.5) (xy 233.68 63.5)
 		)
 		(stroke
 			(width 0.1524)
@@ -5163,7 +5214,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "09cb9dd1-0a06-4d28-a023-5e35ae15f847")
-		(property "Reference" "#SUPPLY021"
+		(property "Reference" "#SUPPLY026"
 			(at 139.7 53.34 0)
 			(effects
 				(font
@@ -5214,7 +5265,7 @@
 		(instances
 			(project "EEZ DIB2 DCP426"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/b522d90e-ad77-4f16-838a-4f8652a53e91"
-					(reference "#SUPPLY021")
+					(reference "#SUPPLY026")
 					(unit 1)
 				)
 			)
@@ -5230,7 +5281,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a56cbf3-b9d0-41e1-8259-b840b0c047eb")
-		(property "Reference" "C32"
+		(property "Reference" "C36"
 			(at 50.419 71.501 90)
 			(effects
 				(font
@@ -5311,7 +5362,7 @@
 		(instances
 			(project "EEZ DIB2 DCP426"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/b522d90e-ad77-4f16-838a-4f8652a53e91"
-					(reference "C32")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -5327,7 +5378,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ffac91b-a1c1-42aa-86ec-f0cc16587109")
-		(property "Reference" "C54"
+		(property "Reference" "C58"
 			(at 244.475 109.22 0)
 			(effects
 				(font
@@ -5408,7 +5459,7 @@
 		(instances
 			(project "EEZ DIB2 DCP426"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/b522d90e-ad77-4f16-838a-4f8652a53e91"
-					(reference "C54")
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -5423,7 +5474,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c1daebc-274f-422b-98b7-f55cf1f8bc2a")
-		(property "Reference" "C40"
+		(property "Reference" "C44"
 			(at 108.839 63.119 90)
 			(effects
 				(font
@@ -5504,7 +5555,7 @@
 		(instances
 			(project "EEZ DIB2 DCP426"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/b522d90e-ad77-4f16-838a-4f8652a53e91"
-					(reference "C40")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -5651,7 +5702,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "233ec9c4-bb5f-4848-ab4d-fa052fc6bb87")
-		(property "Reference" "#FLG08"
+		(property "Reference" "#FLG06"
 			(at 139.7 33.655 0)
 			(effects
 				(font
@@ -5702,7 +5753,7 @@
 		(instances
 			(project "EEZ DIB2 DCP426"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/b522d90e-ad77-4f16-838a-4f8652a53e91"
-					(reference "#FLG08")
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -5717,7 +5768,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "25634287-6cfc-4de4-a225-c086d098a5df")
-		(property "Reference" "#SUPPLY019"
+		(property "Reference" "#SUPPLY024"
 			(at 121.92 78.74 0)
 			(effects
 				(font
@@ -5768,7 +5819,7 @@
 		(instances
 			(project "EEZ DIB2 DCP426"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/b522d90e-ad77-4f16-838a-4f8652a53e91"
-					(reference "#SUPPLY019")
+					(reference "#SUPPLY024")
 					(unit 1)
 				)
 			)
@@ -5880,7 +5931,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2adab26c-85e4-4342-9743-6aed060f05de")
-		(property "Reference" "C43"
+		(property "Reference" "C47"
 			(at 121.666 68.834 0)
 			(effects
 				(font
@@ -5970,32 +6021,24 @@
 		(instances
 			(project "EEZ DIB2 DCP426"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/b522d90e-ad77-4f16-838a-4f8652a53e91"
-					(reference "C43")
+					(reference "C47")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "PCM_EEZ_passives:L_EU")
-		(at 243.84 63.5 0)
+		(lib_id "PCM_EEZ_passives:L_Ferrite Bead")
+		(at 246.38 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "3021d3a7-2696-47ba-9364-f280c2a45ddf")
-		(property "Reference" "FB4"
-			(at 243.84 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "60R@100MHz"
-			(at 243.84 64.77 0)
+		(property "Reference" "FB3"
+			(at 246.38 60.96 90)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6003,8 +6046,18 @@
 				(justify top)
 			)
 		)
+		(property "Value" "BLM18AG102SH1D"
+			(at 246.38 66.04 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify bottom)
+			)
+		)
 		(property "Footprint" "PCM_EEZ_passives:BEAD0603"
-			(at 243.84 63.5 0)
+			(at 246.38 65.278 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6013,7 +6066,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 63.5 0)
+			(at 246.38 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6021,8 +6074,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 243.84 63.5 0)
+		(property "Description" "Ferrite bead"
+			(at 246.38 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6031,7 +6084,7 @@
 			)
 		)
 		(property "DigiKey" "490-7809-1-ND"
-			(at 243.84 63.5 0)
+			(at 246.38 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6040,7 +6093,7 @@
 			)
 		)
 		(property "Mouser" "81-BLM18AG102SH1D"
-			(at 243.84 63.5 0)
+			(at 246.38 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6049,7 +6102,16 @@
 			)
 		)
 		(property "TME" "BLM18AG102SH1D"
-			(at 243.84 63.5 0)
+			(at 246.38 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 246.38 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6066,7 +6128,7 @@
 		(instances
 			(project "EEZ DIB2 DCP426"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/b522d90e-ad77-4f16-838a-4f8652a53e91"
-					(reference "FB4")
+					(reference "FB3")
 					(unit 1)
 				)
 			)
@@ -6472,7 +6534,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a7b1e7a-2bd7-48b5-9277-a9b3e69924c2")
-		(property "Reference" "#SUPPLY013"
+		(property "Reference" "#SUPPLY018"
 			(at 35.56 58.42 0)
 			(effects
 				(font
@@ -6523,7 +6585,7 @@
 		(instances
 			(project "EEZ DIB2 DCP426"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/b522d90e-ad77-4f16-838a-4f8652a53e91"
-					(reference "#SUPPLY013")
+					(reference "#SUPPLY018")
 					(unit 1)
 				)
 			)
@@ -6538,7 +6600,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "419a0ab8-81cd-409f-b201-da69db04b98d")
-		(property "Reference" "#+3V06"
+		(property "Reference" "#+3V08"
 			(at 33.02 66.04 0)
 			(effects
 				(font
@@ -6589,7 +6651,7 @@
 		(instances
 			(project "EEZ DIB2 DCP426"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/b522d90e-ad77-4f16-838a-4f8652a53e91"
-					(reference "#+3V06")
+					(reference "#+3V08")
 					(unit 1)
 				)
 			)
@@ -6597,15 +6659,15 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 256.54 27.94 0)
+		(at 251.46 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "432a12d7-3d21-414b-bc70-c45d747c20b9")
-		(property "Reference" "#FLG010"
-			(at 256.54 26.035 0)
+		(property "Reference" "#FLG07"
+			(at 251.46 26.035 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6614,7 +6676,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 256.54 24.765 0)
+			(at 251.46 24.765 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6623,7 +6685,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 27.94 0)
+			(at 251.46 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6632,7 +6694,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 256.54 27.94 0)
+			(at 251.46 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6641,7 +6703,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 256.54 27.94 0)
+			(at 251.46 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6655,7 +6717,7 @@
 		(instances
 			(project "EEZ DIB2 DCP426"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/b522d90e-ad77-4f16-838a-4f8652a53e91"
-					(reference "#FLG010")
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
@@ -6671,7 +6733,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "44938bb9-6253-4640-bc94-2d30925e4512")
-		(property "Reference" "C36"
+		(property "Reference" "C40"
 			(at 88.519 97.409 0)
 			(effects
 				(font
@@ -6752,7 +6814,7 @@
 		(instances
 			(project "EEZ DIB2 DCP426"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/b522d90e-ad77-4f16-838a-4f8652a53e91"
-					(reference "C36")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -6939,7 +7001,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4ffbfb2f-2e72-45b6-bbcd-90b0891185f3")
-		(property "Reference" "C42"
+		(property "Reference" "C46"
 			(at 121.92 43.18 0)
 			(effects
 				(font
@@ -7020,7 +7082,7 @@
 		(instances
 			(project "EEZ DIB2 DCP426"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/b522d90e-ad77-4f16-838a-4f8652a53e91"
-					(reference "C42")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -7179,7 +7241,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "51916462-63fb-4469-b8ff-88da4700042c")
-		(property "Reference" "#SUPPLY022"
+		(property "Reference" "#SUPPLY027"
 			(at 147.32 104.14 0)
 			(effects
 				(font
@@ -7230,7 +7292,7 @@
 		(instances
 			(project "EEZ DIB2 DCP426"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/b522d90e-ad77-4f16-838a-4f8652a53e91"
-					(reference "#SUPPLY022")
+					(reference "#SUPPLY027")
 					(unit 1)
 				)
 			)
@@ -7482,7 +7544,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5ff667c9-8b5e-408e-aa0e-8b14560175f4")
-		(property "Reference" "C47"
+		(property "Reference" "C51"
 			(at 150.114 77.089 0)
 			(effects
 				(font
@@ -7563,7 +7625,7 @@
 		(instances
 			(project "EEZ DIB2 DCP426"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/b522d90e-ad77-4f16-838a-4f8652a53e91"
-					(reference "C47")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -7578,7 +7640,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74ea4933-5536-4759-ada1-7a5d8ab57e34")
-		(property "Reference" "JP4"
+		(property "Reference" "JP6"
 			(at 144.78 58.42 0)
 			(effects
 				(font
@@ -7670,7 +7732,7 @@
 		(instances
 			(project ""
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/b522d90e-ad77-4f16-838a-4f8652a53e91"
-					(reference "JP4")
+					(reference "JP6")
 					(unit 1)
 				)
 			)
@@ -7685,7 +7747,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7653229c-7f45-4a72-a238-01cd9a37583a")
-		(property "Reference" "#SUPPLY030"
+		(property "Reference" "#SUPPLY035"
 			(at 208.28 43.18 0)
 			(effects
 				(font
@@ -7736,7 +7798,7 @@
 		(instances
 			(project "EEZ DIB2 DCP426"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/b522d90e-ad77-4f16-838a-4f8652a53e91"
-					(reference "#SUPPLY030")
+					(reference "#SUPPLY035")
 					(unit 1)
 				)
 			)
@@ -7963,7 +8025,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80260bff-c274-4164-9a4e-3c189e4f08cd")
-		(property "Reference" "C50"
+		(property "Reference" "C54"
 			(at 205.105 111.76 0)
 			(effects
 				(font
@@ -8044,7 +8106,7 @@
 		(instances
 			(project "EEZ DIB2 DCP426"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/b522d90e-ad77-4f16-838a-4f8652a53e91"
-					(reference "C50")
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -8183,7 +8245,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9265f18d-d0b5-474e-b9b6-8ebc43f082f4")
-		(property "Reference" "C37"
+		(property "Reference" "C41"
 			(at 91.059 63.119 90)
 			(effects
 				(font
@@ -8264,7 +8326,7 @@
 		(instances
 			(project "EEZ DIB2 DCP426"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/b522d90e-ad77-4f16-838a-4f8652a53e91"
-					(reference "C37")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -8279,7 +8341,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9330e074-8fa6-442a-b925-b92340642180")
-		(property "Reference" "#FLG011"
+		(property "Reference" "#FLG09"
 			(at 256.54 102.235 0)
 			(effects
 				(font
@@ -8330,7 +8392,7 @@
 		(instances
 			(project "EEZ DIB2 DCP426"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/b522d90e-ad77-4f16-838a-4f8652a53e91"
-					(reference "#FLG011")
+					(reference "#FLG09")
 					(unit 1)
 				)
 			)
@@ -8647,7 +8709,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_symbols:V+")
-		(at 261.62 30.48 270)
+		(at 256.54 30.48 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8655,7 +8717,7 @@
 		(dnp no)
 		(uuid "b7f03431-33cb-4b0f-a57d-cd7f98e2672d")
 		(property "Reference" "#P+04"
-			(at 261.62 30.48 0)
+			(at 256.54 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8664,7 +8726,7 @@
 			)
 		)
 		(property "Value" "V+"
-			(at 262.89 31.115 90)
+			(at 257.81 31.115 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8673,7 +8735,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 30.48 0)
+			(at 256.54 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8682,7 +8744,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 30.48 0)
+			(at 256.54 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8691,7 +8753,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 261.62 30.48 0)
+			(at 256.54 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8720,7 +8782,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bebf4ef3-53c7-4dd8-a514-4418f554fc39")
-		(property "Reference" "#FLG09"
+		(property "Reference" "#FLG08"
 			(at 254 59.055 0)
 			(effects
 				(font
@@ -8771,7 +8833,7 @@
 		(instances
 			(project "EEZ DIB2 DCP426"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/b522d90e-ad77-4f16-838a-4f8652a53e91"
-					(reference "#FLG09")
+					(reference "#FLG08")
 					(unit 1)
 				)
 			)
@@ -8884,7 +8946,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c1f863b8-38c4-4015-b182-d64795228c6d")
-		(property "Reference" "#SUPPLY034"
+		(property "Reference" "#SUPPLY039"
 			(at 259.08 63.5 0)
 			(effects
 				(font
@@ -8935,7 +8997,7 @@
 		(instances
 			(project "EEZ DIB2 DCP426"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/b522d90e-ad77-4f16-838a-4f8652a53e91"
-					(reference "#SUPPLY034")
+					(reference "#SUPPLY039")
 					(unit 1)
 				)
 			)
@@ -9146,7 +9208,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c7ff5fbd-22eb-415b-8c9c-16c27a499189")
-		(property "Reference" "#SUPPLY033"
+		(property "Reference" "#SUPPLY038"
 			(at 243.84 121.92 0)
 			(effects
 				(font
@@ -9197,7 +9259,7 @@
 		(instances
 			(project "EEZ DIB2 DCP426"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/b522d90e-ad77-4f16-838a-4f8652a53e91"
-					(reference "#SUPPLY033")
+					(reference "#SUPPLY038")
 					(unit 1)
 				)
 			)
@@ -9310,7 +9372,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cd47a8ac-6f04-4a07-ba71-ae9e514f4eed")
-		(property "Reference" "C30"
+		(property "Reference" "C34"
 			(at 46.101 50.419 90)
 			(effects
 				(font
@@ -9391,7 +9453,7 @@
 		(instances
 			(project "EEZ DIB2 DCP426"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/b522d90e-ad77-4f16-838a-4f8652a53e91"
-					(reference "C30")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -9504,7 +9566,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d23f1a56-971d-4e9d-8502-f7e0e8a2da91")
-		(property "Reference" "C53"
+		(property "Reference" "C57"
 			(at 221.361 32.131 0)
 			(effects
 				(font
@@ -9585,7 +9647,7 @@
 		(instances
 			(project "EEZ DIB2 DCP426"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/b522d90e-ad77-4f16-838a-4f8652a53e91"
-					(reference "C53")
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -9704,7 +9766,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "deb776b1-ec37-4115-96bd-b4e8ef67e7a0")
-		(property "Reference" "#SUPPLY029"
+		(property "Reference" "#SUPPLY034"
 			(at 205.74 121.92 0)
 			(effects
 				(font
@@ -9755,7 +9817,7 @@
 		(instances
 			(project "EEZ DIB2 DCP426"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/b522d90e-ad77-4f16-838a-4f8652a53e91"
-					(reference "#SUPPLY029")
+					(reference "#SUPPLY034")
 					(unit 1)
 				)
 			)
@@ -9989,7 +10051,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e310de0b-19c5-4728-8829-6aaa7fd7b597")
-		(property "Reference" "C46"
+		(property "Reference" "C50"
 			(at 141.859 44.069 0)
 			(effects
 				(font
@@ -10070,7 +10132,7 @@
 		(instances
 			(project "EEZ DIB2 DCP426"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/b522d90e-ad77-4f16-838a-4f8652a53e91"
-					(reference "C46")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -10086,7 +10148,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e3ae5151-da9a-4288-81d9-7f91885ce855")
-		(property "Reference" "C38"
+		(property "Reference" "C42"
 			(at 96.139 92.329 0)
 			(effects
 				(font
@@ -10167,7 +10229,7 @@
 		(instances
 			(project "EEZ DIB2 DCP426"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/b522d90e-ad77-4f16-838a-4f8652a53e91"
-					(reference "C38")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -10183,7 +10245,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e53b8b3e-5434-42e0-99fa-4b033b022b05")
-		(property "Reference" "C31"
+		(property "Reference" "C35"
 			(at 46.101 55.499 90)
 			(effects
 				(font
@@ -10264,7 +10326,7 @@
 		(instances
 			(project "EEZ DIB2 DCP426"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/b522d90e-ad77-4f16-838a-4f8652a53e91"
-					(reference "C31")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -10279,7 +10341,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e58cc91a-7860-4b83-8ca9-a6886a1d5273")
-		(property "Reference" "#+3V014"
+		(property "Reference" "#+3V016"
 			(at 261.62 106.68 0)
 			(effects
 				(font
@@ -10330,41 +10392,43 @@
 		(instances
 			(project "EEZ DIB2 DCP426"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/b522d90e-ad77-4f16-838a-4f8652a53e91"
-					(reference "#+3V014")
+					(reference "#+3V016")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "PCM_EEZ_passives:L_EU")
-		(at 248.92 30.48 0)
+		(lib_id "PCM_EEZ_passives:L_Ferrite Bead")
+		(at 246.38 30.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e6b57a47-ad6f-47ed-a804-a01ccd208958")
-		(property "Reference" "FB5"
-			(at 248.92 29.21 0)
+		(property "Reference" "FB2"
+			(at 246.38 27.94 90)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(justify top)
 			)
 		)
-		(property "Value" "60R@100MHz"
-			(at 248.92 31.75 0)
+		(property "Value" "BLM18AG102SH1D"
+			(at 246.38 33.02 90)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
-				(justify top)
+				(justify bottom)
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:BEAD0603"
-			(at 248.92 30.48 0)
+			(at 246.38 32.258 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10373,7 +10437,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 30.48 0)
+			(at 246.38 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10381,8 +10445,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 248.92 30.48 0)
+		(property "Description" "Ferrite bead"
+			(at 246.38 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10391,7 +10455,7 @@
 			)
 		)
 		(property "DigiKey" "490-7809-1-ND"
-			(at 248.92 30.48 0)
+			(at 246.38 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10400,7 +10464,7 @@
 			)
 		)
 		(property "Mouser" "81-BLM18AG102SH1D"
-			(at 248.92 30.48 0)
+			(at 246.38 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10409,7 +10473,16 @@
 			)
 		)
 		(property "TME" "BLM18AG102SH1D"
-			(at 248.92 30.48 0)
+			(at 246.38 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 246.38 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10426,7 +10499,7 @@
 		(instances
 			(project "EEZ DIB2 DCP426"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/b522d90e-ad77-4f16-838a-4f8652a53e91"
-					(reference "FB5")
+					(reference "FB2")
 					(unit 1)
 				)
 			)
@@ -10441,7 +10514,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6f5f5e9-91de-498d-b52c-6131d6b04efa")
-		(property "Reference" "#SUPPLY027"
+		(property "Reference" "#SUPPLY032"
 			(at 205.74 81.28 0)
 			(effects
 				(font
@@ -10492,7 +10565,7 @@
 		(instances
 			(project "EEZ DIB2 DCP426"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/b522d90e-ad77-4f16-838a-4f8652a53e91"
-					(reference "#SUPPLY027")
+					(reference "#SUPPLY032")
 					(unit 1)
 				)
 			)
@@ -10508,7 +10581,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa64a811-0e80-49b7-b57e-129f397fce87")
-		(property "Reference" "C52"
+		(property "Reference" "C56"
 			(at 219.075 66.04 0)
 			(effects
 				(font
@@ -10589,7 +10662,7 @@
 		(instances
 			(project "EEZ DIB2 DCP426"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/b522d90e-ad77-4f16-838a-4f8652a53e91"
-					(reference "C52")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -10605,7 +10678,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa8cc602-25b9-457d-b0c3-a5fb4a0f3318")
-		(property "Reference" "#SUPPLY025"
+		(property "Reference" "#SUPPLY030"
 			(at 190.5 63.5 0)
 			(effects
 				(font
@@ -10656,7 +10729,7 @@
 		(instances
 			(project "EEZ DIB2 DCP426"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/b522d90e-ad77-4f16-838a-4f8652a53e91"
-					(reference "#SUPPLY025")
+					(reference "#SUPPLY030")
 					(unit 1)
 				)
 			)

@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "9.0.6-9.0.6~ubuntu24.04.1"
     },
-    "CreationDate": "2025-12-06T08:51:33+01:00"
+    "CreationDate": "2025-12-07T17:00:12+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "EEZ DIB DCP405plus",
       "GUID": "45455a20-4449-4422-9044-435034303570",
-      "Revision": "r4B3"
+      "Revision": "r4B4"
     },
     "Size": {
       "X": 180.1,

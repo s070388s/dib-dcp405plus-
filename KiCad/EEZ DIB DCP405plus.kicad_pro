@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3048
+          "min_clearance": 0.508
         }
       },
       "diff_pair_dimensions": [
@@ -105,6 +105,22 @@
         ],
         [
           "clearance|173651000|129053400|6eb4e877-21ad-464e-a9ba-ed24185eece6|c84546b1-7986-408d-95ad-5fe61b7b1bdd",
+          ""
+        ],
+        [
+          "clearance|186924800|94750000|75b19dd9-0974-40c3-bbf0-2640904c8f8d|add85497-5497-43cc-be0a-b1690d278ab6",
+          ""
+        ],
+        [
+          "clearance|187585200|94750000|8ffaa32f-04b0-4b8d-b055-9db6f0aeb4f4|add85497-5497-43cc-be0a-b1690d278ab6",
+          ""
+        ],
+        [
+          "clearance|188474800|96640000|c2a978c5-6370-411a-9a70-c37b280e353b|eca60bc9-b51a-4567-b7e7-f2401a9f3277",
+          ""
+        ],
+        [
+          "clearance|189135200|96640000|e70fcb88-d71d-4eee-9345-30ad58f026fd|eca60bc9-b51a-4567-b7e7-f2401a9f3277",
           ""
         ],
         [
@@ -901,6 +917,6 @@
     "project_license": "Licensed under the TAPR Open Hardware License (www.tapr.org/OHL)",
     "project_name": "EEZ DIB DCP405+ power module",
     "project_url": "https://www.envox.eu",
-    "project_version": "r4B3"
+    "project_version": "r4B4"
   }
 }
