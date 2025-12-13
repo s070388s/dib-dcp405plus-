@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "9.0.6-9.0.6~ubuntu24.04.1"
     },
-    "CreationDate": "2025-11-23T10:50:39+01:00"
+    "CreationDate": "2025-12-13T08:09:00+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "EEZ DIB DCP405plus front mask",
       "GUID": "45455a20-4449-4422-9044-435034303570",
-      "Revision": "r4B2"
+      "Revision": "r4B3"
     },
     "Size": {
       "X": 35.05,
