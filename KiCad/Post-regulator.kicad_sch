@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2025-12-08")
+		(date "2025-12-17")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -14157,6 +14157,102 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_EEZ_unsorted:M3X8/D7985B")
+		(at 22.86 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "404a36aa-2741-4154-9a1d-7494958edb93")
+		(property "Reference" "KK6"
+			(at 25.4 38.1 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "M3X8/D7985B"
+			(at 25.4 40.005 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Screw; M3x8; 0.5; Head: cheese head; Phillips; PH1; DIN 7985"
+			(at 22.86 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "-"
+			(at 22.86 43.18 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "-"
+			(at 22.86 45.72 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME" "M3X8/D7985B"
+			(at 22.86 48.26 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "EEZ DIB DCP405plus"
+				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/34bb83a5-d559-4d80-b3e4-82ef079c17b9"
+					(reference "KK6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_EEZ_passives:C-EU")
 		(at 63.5 127 270)
 		(unit 1)
@@ -15516,101 +15612,6 @@
 			(project "EEZ DIB DCP405"
 				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/34bb83a5-d559-4d80-b3e4-82ef079c17b9"
 					(reference "Q10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_EEZ_unsorted:B3/BN2842")
-		(at 43.18 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(uuid "63a40e1b-ab5d-4189-b555-796752017601")
-		(property "Reference" "KK6"
-			(at 45.085 35.56 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "B3/BN2842"
-			(at 45.085 37.465 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Washer; externally serrated; M3"
-			(at 43.18 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" "-"
-			(at 43.18 40.64 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "-"
-			(at 43.18 43.18 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TME" "B3/BN2842"
-			(at 43.18 45.72 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/65943c0e-8943-4d2a-93dc-fb4938f73312/34bb83a5-d559-4d80-b3e4-82ef079c17b9"
-					(reference "KK6")
 					(unit 1)
 				)
 			)
@@ -18481,7 +18482,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_unsorted:TO247_Thermal_pad")
-		(at 58.42 33.02 0)
+		(at 53.34 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18490,7 +18491,7 @@
 		(fields_autoplaced yes)
 		(uuid "9dc56726-f256-4924-bece-bae5fc9f95bf")
 		(property "Reference" "KK8"
-			(at 62.865 36.195 0)
+			(at 57.785 36.195 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -18500,7 +18501,7 @@
 			)
 		)
 		(property "Value" "SP400-0.007-00-104"
-			(at 62.865 37.465 0)
+			(at 57.785 37.465 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -18510,7 +18511,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 33.02 0)
+			(at 53.34 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18519,7 +18520,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 33.02 0)
+			(at 53.34 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18528,7 +18529,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 33.02 0)
+			(at 53.34 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18537,7 +18538,7 @@
 			)
 		)
 		(property "DigiKey" "BER204-ND"
-			(at 58.42 40.64 0)
+			(at 53.34 40.64 0)
 			(show_name yes)
 			(effects
 				(font
@@ -18547,7 +18548,7 @@
 			)
 		)
 		(property "Mouser" "951-SP400-007-00-104"
-			(at 58.42 43.18 0)
+			(at 53.34 43.18 0)
 			(show_name yes)
 			(effects
 				(font
@@ -18855,7 +18856,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_unsorted:M3X8/D7985B")
-		(at 22.86 35.56 0)
+		(at 22.86 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18864,7 +18865,7 @@
 		(fields_autoplaced yes)
 		(uuid "a3c912c2-9583-4a0f-b58b-f4541c0c0ea8")
 		(property "Reference" "KK5"
-			(at 25.4 35.56 0)
+			(at 25.4 33.02 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -18874,7 +18875,7 @@
 			)
 		)
 		(property "Value" "M3X8/D7985B"
-			(at 25.4 37.465 0)
+			(at 25.4 34.925 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -18884,7 +18885,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 35.56 0)
+			(at 22.86 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18893,7 +18894,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 35.56 0)
+			(at 22.86 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18902,7 +18903,7 @@
 			)
 		)
 		(property "Description" "Screw; M3x8; 0.5; Head: cheese head; Phillips; PH1; DIN 7985"
-			(at 22.86 38.1 0)
+			(at 22.86 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18911,7 +18912,7 @@
 			)
 		)
 		(property "DigiKey" "-"
-			(at 22.86 40.64 0)
+			(at 22.86 38.1 0)
 			(show_name yes)
 			(effects
 				(font
@@ -18921,7 +18922,7 @@
 			)
 		)
 		(property "Mouser" "-"
-			(at 22.86 43.18 0)
+			(at 22.86 40.64 0)
 			(show_name yes)
 			(effects
 				(font
@@ -18931,7 +18932,7 @@
 			)
 		)
 		(property "TME" "M3X8/D7985B"
-			(at 22.86 45.72 0)
+			(at 22.86 43.18 0)
 			(show_name yes)
 			(effects
 				(font
