@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2025-12-17")
+		(date "2025-12-18")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -5363,7 +5363,7 @@
 		)
 		(uuid "fcf6a4d1-bb8b-4ddf-918d-694b665251a9")
 	)
-	(label "OE_LED_RED"
+	(label "~{OE_LED_RED}"
 		(at 251.46 60.96 180)
 		(effects
 			(font
@@ -5373,7 +5373,7 @@
 		)
 		(uuid "123e1a2f-bb92-47a9-a958-4c8072b645ca")
 	)
-	(label "OE_LED_RED"
+	(label "~{OE_LED_RED}"
 		(at 78.74 139.7 180)
 		(effects
 			(font
@@ -5383,7 +5383,7 @@
 		)
 		(uuid "8cbb8d74-b919-4e0d-b9e4-089fa7647b09")
 	)
-	(label "OE_LED_GREEN"
+	(label "~{OE_LED_GREEN}"
 		(at 251.46 63.5 180)
 		(effects
 			(font
@@ -5403,7 +5403,7 @@
 		)
 		(uuid "ce62c77e-a72c-409f-8100-75a8ca10d53d")
 	)
-	(label "OE_LED_GREEN"
+	(label "~{OE_LED_GREEN}"
 		(at 78.74 134.62 180)
 		(effects
 			(font
